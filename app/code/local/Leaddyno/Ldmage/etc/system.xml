@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <ldmage_config translate="label" module="leaddyno_ldmage">
+            <class>leaddyno_ldmage-menu-section</class>
+            <label>LeadDyno</label>
+            <header_css>leaddyno_ldmage-header</header_css>
+            <tab>sales</tab>
+            <sort_order>90</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <account translate="label">
+                    <label>Account Information</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <public_key translate="label">
+                            <label>Public Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Enter the Public Key as found on the Settings page in your LeadDyno Dashboard]]></comment>
+                        </public_key>
+                        <private_key translate="label">
+                            <label>Private Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Enter the Private Key as found on the Settings page in your LeadDyno Dashboard]]></comment>
+                        </private_key>
+                        <ld_domain translate="label">
+                            <label>Domain (Optional)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[If special domain settings are needed, set the domain here (e.g. http://www.example.com).]]></comment>
+                        </ld_domain>
+                        <ld_watch translate="label">
+                            <label>Watch Field (Optional)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[If you only want to use one field for recording leads, set the field id value here (e.g. #newsletter ).]]></comment>
+                        </ld_watch>
+                    </fields>
+                </account>
+            </groups>
+        </ldmage_config>
+    </sections>
+</config>
+

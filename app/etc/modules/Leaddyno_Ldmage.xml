@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<Leaddyno_Ldmage>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Leaddyno_Ldmage>
+	</modules>
+</config>
