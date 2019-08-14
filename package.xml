@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Leaddyno_Ldmage</name>
-    <version>1.0.3</version>
-    <stability>beta</stability>
+    <version>1.0.4</version>
+    <stability>stable</stability>
     <license>MITL</license>
     <channel>community</channel>
     <extends/>
     <summary>Integration with LeadDyno affiliate marketing platform. </summary>
     <description>This extension will instantly integrate our affiliate tracking application once your credentials are provided and then update our system with purchase information through Magento</description>
-    <notes>Rename app to fit extension key</notes>
+    <notes>Add versioning, verify it's a Magento 2.0 extension</notes>
     <authors><author><name>LeadDyno</name><user>LeadDyno</user><email>admin@leaddyno.com</email></author></authors>
-    <date>2016-10-19</date>
-    <time>20:57:56</time>
-    <contents><target name="magelocal"><dir name="Leaddyno"><dir name="Ldmage"><dir name="Block"><file name="Clicktracking.php" hash="b7e7b1bed5d3efe1753f2d6315c6668b"/></dir><dir name="Helper"><file name="Data.php" hash="dcd627dbb59a95fc1ea9441e98c0bde6"/></dir><dir name="Model"><file name="Config.php" hash="389b94457cc50876c52a987113ce9e9b"/><file name="Observer.php" hash="c174b018e993b6514d4ce029be4b7950"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c98b0c30dcf6306c5f7796fad831f594"/><file name="config.xml" hash="9bc97684587250a380424e7265be68e0"/><file name="system.xml" hash="75c8c5c587e2d38c7435b6822dc2f9f0"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ldmage.xml" hash="f2ede9e844c4c59f8eb9c70f26884685"/></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="ldmage.xml" hash="f2ede9e844c4c59f8eb9c70f26884685"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Leaddyno_Ldmage.xml" hash="46971a40e9aadcc8a636130f3491e522"/></dir></target></contents>
+    <date>2016-11-02</date>
+    <time>18:21:30</time>
+    <contents><target name="magelocal"><dir name="Leaddyno"><dir name="Ldmage"><dir name="Block"><file name="Clicktracking.php" hash="b7e7b1bed5d3efe1753f2d6315c6668b"/></dir><dir name="Helper"><file name="Data.php" hash="dcd627dbb59a95fc1ea9441e98c0bde6"/></dir><dir name="Model"><file name="Config.php" hash="389b94457cc50876c52a987113ce9e9b"/><file name="Observer.php" hash="c174b018e993b6514d4ce029be4b7950"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c98b0c30dcf6306c5f7796fad831f594"/><file name="config.xml" hash="580e5bf825af81cb4e5d7d406a725720"/><file name="system.xml" hash="75c8c5c587e2d38c7435b6822dc2f9f0"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ldmage.xml" hash="f2ede9e844c4c59f8eb9c70f26884685"/></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="ldmage.xml" hash="f2ede9e844c4c59f8eb9c70f26884685"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Leaddyno_Ldmage.xml" hash="45d1a504c876472972ea4ab858fd486a"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.6.25</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>7.5.0</max></php></required></dependencies>
 </package>

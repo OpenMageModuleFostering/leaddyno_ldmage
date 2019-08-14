@@ -3,6 +3,7 @@
 		<Leaddyno_Ldmage>
 			<active>true</active>
 			<codePool>local</codePool>
+			<version>1.0.4</version>
 		</Leaddyno_Ldmage>
 	</modules>
 </config>
