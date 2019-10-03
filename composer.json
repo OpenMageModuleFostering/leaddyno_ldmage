@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Leaddyno_Ldmage",
+    "name": "OpenMageModuleFostering\/Leaddyno_Ldmage",
     "type": "magento-module",
     "license": "MITL",
     "homepage": "",
     "description": "Integration with LeadDyno affiliate marketing platform. ",
     "authors": [
-    {
-        "name": "LeadDyno",
-        "email": "admin@leaddyno.com"
-    }
-],
+        {
+            "name": "LeadDyno",
+            "email": "admin@leaddyno.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
